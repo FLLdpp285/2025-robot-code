@@ -25,7 +25,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="100">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="1000">
+                    <ConfigurableMethodTerminal ConfiguredValue="950">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -41,13 +41,13 @@
                     <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="30">
+                    <ConfigurableMethodTerminal ConfiguredValue="50">
                         <Terminal Id="Speed\ Left" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Speed\ Right" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="150">
+                    <ConfigurableMethodTerminal ConfiguredValue="170">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -89,7 +89,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Steering" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="-30">
+                    <ConfigurableMethodTerminal ConfiguredValue="-40">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="550">
@@ -127,7 +127,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="-32">
                         <Terminal Id="Steering" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="-30">
+                    <ConfigurableMethodTerminal ConfiguredValue="-60">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="400">
@@ -153,7 +153,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="30">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="0.7">
+                    <ConfigurableMethodTerminal ConfiguredValue="0.5">
                         <Terminal Id="Seconds" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -175,7 +175,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="-100">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="410">
+                    <ConfigurableMethodTerminal ConfiguredValue="390">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -242,7 +242,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="-100">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="1331">
+                    <ConfigurableMethodTerminal ConfiguredValue="600">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="False">
@@ -258,13 +258,13 @@
                     <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
                         <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="-10">
+                    <ConfigurableMethodTerminal ConfiguredValue="-3">
                         <Terminal Id="Steering" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="-100">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="1">
+                    <ConfigurableMethodTerminal ConfiguredValue="2">
                         <Terminal Id="Seconds" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -284,10 +284,10 @@
                     <ConfigurableMethodTerminal ConfiguredValue="4">
                         <Terminal Id="Steering" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="80">
+                    <ConfigurableMethodTerminal ConfiguredValue="100">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="2">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.5">
                         <Terminal Id="Seconds" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -372,7 +372,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="-30">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="30">
+                    <ConfigurableMethodTerminal ConfiguredValue="80">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
