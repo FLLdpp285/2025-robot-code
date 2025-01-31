@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_022_Motors2">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description />
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="startSpeed" DisplayName="startSpeed" Direction="Input" Identification="Identification_200_Speed_0.png" DataType="Single" DefaultValue="5" Configuration="SliderVertical.custom" MinValue="-100" MaxValue="100" />
+        <ParamInfo Name="endSpeed" DisplayName="endSpeed" Direction="Input" Identification="Identification_204_Speed_Plus100.png" DataType="Single" DefaultValue="0" Configuration="SliderVertical.custom" MinValue="-100" MaxValue="100" />
+        <ParamInfo Name="distance" DisplayName="distance" Direction="Input" Identification="Identification_283_DegreesAngle_Plus135.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="endDistance" DisplayName="endDistance" Direction="Input" Identification="Identification_278_MotorRotation.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="brake" DisplayName="brake" Direction="Input" Identification="Identification_509_BrakeAtEnd_Coast.png" DataType="Boolean" DefaultValue="True" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>

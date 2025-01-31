@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_093_BlueTooth">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description />
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="kP" DisplayName="kP" Direction="Input" Identification="Identification_000_A.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="kD" DisplayName="kD" Direction="Input" Identification="Identification_003_D.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="MotorPort" DisplayName="MotorPort" Direction="Input" Identification="Identification_008_Numeric.png" DataType="Single" DefaultValue="3" />
+        <ParamInfo Name="threshold" DisplayName="threshold" Direction="Input" Identification="Identification_033_ComparisonType_LessEqual.png" DataType="Single" DefaultValue="2" />
+        <ParamInfo Name="setpoint" DisplayName="setpoint" Direction="Input" Identification="Identification_278_MotorRotation.png" DataType="Single" DefaultValue="0" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
