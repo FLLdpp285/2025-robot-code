@@ -23,10 +23,10 @@
                     <ConfigurableMethodTerminal ConfiguredValue="False">
                         <Terminal Id="Clear\ Screen" Direction="Input" DataType="Boolean" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="76">
+                    <ConfigurableMethodTerminal ConfiguredValue="40">
                         <Terminal Id="X" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="58">
+                    <ConfigurableMethodTerminal ConfiguredValue="70">
                         <Terminal Id="Y" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="147 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="False">
@@ -62,10 +62,10 @@
                             <ConfigurableMethodTerminal ConfiguredValue="False">
                                 <Terminal Id="Clear\ Screen" Direction="Input" DataType="Boolean" Hotspot="0.5 1" Bounds="85 56 30 27" />
                             </ConfigurableMethodTerminal>
-                            <ConfigurableMethodTerminal ConfiguredValue="92">
+                            <ConfigurableMethodTerminal ConfiguredValue="50">
                                 <Terminal Id="X" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                             </ConfigurableMethodTerminal>
-                            <ConfigurableMethodTerminal ConfiguredValue="58">
+                            <ConfigurableMethodTerminal ConfiguredValue="70">
                                 <Terminal Id="Y" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="147 56 30 27" />
                             </ConfigurableMethodTerminal>
                             <ConfigurableMethodTerminal ConfiguredValue="False">
@@ -150,8 +150,8 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w10" Joints="N(n9:SequenceOut) N(n50:SequenceIn)" />
                 <Wire Id="w11" Joints="N(n1:SequenceOut) N(n9:SequenceIn)" />
-                <Wire Id="w12" Joints="N(n5:run_id) v(22) h(282) N(n9:Input) B(0) v(30) h(670) N(n14:X)" />
-                <Wire Id="w13" Joints="N(n9:Output\ Result) v(22) h(101) N(n50:Text) B(0) v(38) h(388) N(n14:Y)" />
+                <Wire Id="w12" Joints="N(n5:run_id) v(30) h(670) N(n14:X) B(0) v(22) h(282) N(n9:Input)" />
+                <Wire Id="w13" Joints="N(n9:Output\ Result) v(38) h(388) N(n14:Y) B(0) v(22) h(101) N(n50:Text)" />
                 <Wire Id="w14" Joints="N(n50:SequenceOut) N(n14:SequenceIn)" />
                 <ConfigurableMethodCall Id="n14" Bounds="1570 156 163 91" Target="Arithmetic_Subtract\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1">
@@ -167,7 +167,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w15" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w15" Joints="N(n14:SequenceOut) N(n18:SequenceIn)" />
-                <Wire Id="w16" Joints="N(n14:Result) v(22) h(101) N(n18:x) B(0) v(127) h(377) N(b16:n10)" />
+                <Wire Id="w16" Joints="N(n14:Result) v(127) h(377) N(b16:n10) B(0) v(22) h(101) N(n18:x)" />
                 <ConfigurableMethodCall Id="n18" Bounds="1733 156 163 91" Target="Comparison_NotEqual\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1">
                         <Terminal Id="x" Direction="Input" Wire="w16" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />

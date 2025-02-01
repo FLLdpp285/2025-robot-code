@@ -342,7 +342,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w15" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableWaitFor>
                 <Wire Id="w15" Joints="N(n14:SequenceOut) N(n7:SequenceIn)" />
-                <Wire Id="w12" Joints="N(n1:SequenceOut) h(156.5) v(56) N(n14:SequenceIn) B(0) h(156.5) v(263) N(n9:SequenceIn) B(0) h(156.5) v(-215) N(n4:SequenceIn)" />
+                <Wire Id="w12" Joints="N(n1:SequenceOut) h(156.5) v(-215) N(n4:SequenceIn) B(0) h(156.5) v(263) N(n9:SequenceIn) B(0) h(156.5) v(56) N(n14:SequenceIn)" />
                 <ConfigurableMethodCall Id="n86" Bounds="371 278 101 91" Target="X3\.Lib:GlobalSetSingle">
                     <ConfigurableMethodTerminal ConfiguredValue="run2_red">
                         <Terminal Id="name" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
@@ -360,7 +360,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="run2_green">
                         <Terminal Id="name" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="170">
+                    <ConfigurableMethodTerminal ConfiguredValue="115">
                         <Terminal Id="valueIn" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -374,7 +374,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="run2_blue">
                         <Terminal Id="name" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="130">
+                    <ConfigurableMethodTerminal ConfiguredValue="115">
                         <Terminal Id="valueIn" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
