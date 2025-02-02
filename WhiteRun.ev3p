@@ -359,7 +359,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="-50">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="345">
+                    <ConfigurableMethodTerminal ConfiguredValue="370">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -405,7 +405,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="50">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="1">
+                    <ConfigurableMethodTerminal ConfiguredValue="0.6">
                         <Terminal Id="Seconds" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -579,7 +579,7 @@
                 </ConfigurableMethodCall>
                 <Wire Id="w64" Joints="N(n57:SequenceOut) N(n59:SequenceIn)" />
                 <Wire Id="w65" Joints="N(n50:SequenceOut) N(n46:SequenceIn)" />
-                <Wire Id="w66" Joints="N(n8:SequenceOut) N(n10:SequenceIn) B(0) h(20) v(109) N(n54:SequenceIn)" />
+                <Wire Id="w66" Joints="N(n8:SequenceOut) h(20) v(109) N(n54:SequenceIn) B(0) N(n10:SequenceIn)" />
                 <Wire Id="w63" Joints="N(n15:SequenceOut) N(n57:SequenceIn)" />
                 <Wire Id="w67" Joints="N(n10:SequenceOut) N(n15:SequenceIn)" />
                 <ConfigurableWaitFor Id="n54" Bounds="1372 109 101 91" Target="TimeCompare\.vix">
@@ -633,7 +633,7 @@
                 </ConfigurableWaitFor>
                 <Wire Id="w70" Joints="N(n59:SequenceOut) N(n21:SequenceIn)" />
                 <Wire Id="w56" Joints="N(n34:SequenceOut) N(n58:SequenceIn)" />
-                <Wire Id="w58" Joints="N(n1:SequenceOut) N(n53:SequenceIn) B(0) h(20) v(101) N(n60:SequenceIn)" />
+                <Wire Id="w58" Joints="N(n1:SequenceOut) h(20) v(101) N(n60:SequenceIn) B(0) N(n53:SequenceIn)" />
                 <ConfigurableMethodCall Id="n60" Bounds="131 101 101 91" Target="TimerReset\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1">
                         <Terminal Id="Timer" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
