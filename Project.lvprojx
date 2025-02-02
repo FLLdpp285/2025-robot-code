@@ -71,6 +71,7 @@
                     <Datum Name="run2_green" Kind="Variable" Type="X3Numeric" />
                     <Datum Name="run2_blue" Kind="Variable" Type="X3Numeric" />
                     <Datum Name="num_or_default" Kind="Variable" Type="X3Numeric" />
+                    <Datum Name="timer_started" Kind="Variable" Type="X3Boolean" />
                 </NamedGlobalData>
                 <ProjectOrigin Path="en-US/Internal/FreePlayProgram.ev3" xmlns="http://www.ni.com/X3ProjectOrigin.xsd" />
                 <DaisyChainMode On="False" xmlns="http://www.ni.com/X3ProjectPropertiesModel.xsd" />
