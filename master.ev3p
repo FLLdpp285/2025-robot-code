@@ -342,7 +342,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w15" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableWaitFor>
                 <Wire Id="w15" Joints="N(n14:SequenceOut) N(n7:SequenceIn)" />
-                <Wire Id="w12" Joints="N(n1:SequenceOut) h(156.5) v(56) N(n14:SequenceIn) B(0) h(156.5) v(269) N(n9:SequenceIn) B(0) h(156.5) v(-215) N(n4:SequenceIn)" />
+                <Wire Id="w12" Joints="N(n1:SequenceOut) h(156.5) v(-215) N(n4:SequenceIn) B(0) h(156.5) v(269) N(n9:SequenceIn) B(0) h(156.5) v(56) N(n14:SequenceIn)" />
                 <ConfigurableMethodCall Id="n86" Bounds="472 284 101 91" Target="X3\.Lib:GlobalSetSingle">
                     <ConfigurableMethodTerminal ConfiguredValue="run2_red">
                         <Terminal Id="name" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
@@ -489,7 +489,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w35" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w35" Joints="N(n34:SequenceOut) N(n37:SequenceIn)" />
-                <Wire Id="w38" Joints="N(n34:valueOut) v(22) h(202) N(n33:FileName) B(0) v(30) h(334) N(n32:FileName) B(0) v(16) h(101) N(n37:FileName)" />
+                <Wire Id="w38" Joints="N(n34:valueOut) v(16) h(101) N(n37:FileName) B(0) v(30) h(334) N(n32:FileName) B(0) v(22) h(202) N(n33:FileName)" />
                 <ConfigurableMethodCall Id="n37" Bounds="309 506 101 91" Target="FileDelete\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="Wired_1FAC2752-7229-46A0-AA06-E0731CAB9CAF">
                         <Terminal Id="FileName" Direction="Input" Wire="w38" DataType="String" Hotspot="0.5 1" Bounds="54 56 30 27" />
