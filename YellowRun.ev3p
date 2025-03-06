@@ -106,7 +106,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="-100">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="1.5">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.2">
                         <Terminal Id="Seconds" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -198,7 +198,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w26" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w26" Joints="N(n21:SequenceOut) h(5) v(99) N(n27:SequenceIn) B(0) N(n25:SequenceIn)" />
+                <Wire Id="w26" Joints="N(n21:SequenceOut) N(n25:SequenceIn) B(0) h(5) v(99) N(n27:SequenceIn)" />
                 <ConfigurableWaitFor Id="n46" Bounds="1316 110 101 91" Target="TimeCompare\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="0.2">
                         <Terminal Id="How\ Long" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
@@ -353,7 +353,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="176 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w36" Joints="N(n18:SequenceOut) N(n19:SequenceIn)" />
-                <Wire Id="w34" Joints="N(n31:SequenceOut) h(20) v(104) N(n33:SequenceIn) B(0) N(n18:SequenceIn)" />
+                <Wire Id="w34" Joints="N(n31:SequenceOut) N(n18:SequenceIn) B(0) h(20) v(104) N(n33:SequenceIn)" />
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
