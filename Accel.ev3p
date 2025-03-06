@@ -163,8 +163,8 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w28" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w30" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="176 33 18 18" />
                 </ConfigurableMethodCall>
-                <ConfigurableWaitFor Id="n19" Bounds="2795 487 101 91" Target="TimeCompare\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="0.1">
+                <ConfigurableWaitFor Id="n19" Bounds="2945 487 101 91" Target="TimeCompare\.vix">
+                    <ConfigurableMethodTerminal ConfiguredValue="0.2">
                         <Terminal Id="How\ Long" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -173,7 +173,7 @@
                     <ConfigurableMethodTerminal>
                         <Terminal Id="Result" Direction="Output" DataType="Boolean" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
-                    <Terminal Id="SequenceIn" Direction="Input" Wire="w30" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
+                    <Terminal Id="SequenceIn" Direction="Input" Wire="w31" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableWaitFor>
                 <ConfigurableMegaAccessor Id="n26" Bounds="1309 270 173 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Input">
@@ -194,8 +194,8 @@
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
                 <Wire Id="w21" Joints="N(n26:startSpeed) v(339) h(787) N(b19:n2)" />
-                <Wire Id="w23" Joints="N(n26:endSpeed) v(287) h(1336) N(n25:Speed) B(0) v(347) h(787) N(b21:n2)" />
-                <Wire Id="w24" Joints="N(n26:distance) v(30) h(433) N(n21:Amount) B(0) v(323) h(818) N(b24:n2)" />
+                <Wire Id="w23" Joints="N(n26:endSpeed) v(347) h(787) N(b21:n2) B(0) v(287) h(1336) N(n25:Speed)" />
+                <Wire Id="w24" Joints="N(n26:distance) v(323) h(818) N(b24:n2) B(0) v(30) h(433) N(n21:Amount)" />
                 <Wire Id="w25" Joints="N(n26:endDistance) v(279) h(1305) N(n25:Degrees)" />
                 <Wire Id="w26" Joints="N(n26:brake) v(280) h(982) v(-33) h(323) N(n25:Brake\ At\ End)" />
                 <ConfigurableMethodCall Id="n22" Bounds="1892 114 75 91" Target="ToggleInterrupt\.vix">
@@ -209,8 +209,8 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="57 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w28" Joints="N(n2:SequenceOut) N(n25:SequenceIn)" />
-                <Wire Id="w30" Joints="N(n25:SequenceOut) N(n19:SequenceIn)" />
-                <Wire Id="w22" Joints="N(n3:SequenceOut) h(7) v(-156) N(n21:SequenceIn) B(0) v(217) N(n2:SequenceIn)" />
+                <Wire Id="w30" Joints="N(n25:SequenceOut) N(n23:SequenceIn)" />
+                <Wire Id="w22" Joints="N(n3:SequenceOut) v(217) N(n2:SequenceIn) B(0) h(7) v(-156) N(n21:SequenceIn)" />
                 <Wire Id="w20" Joints="N(n1:SequenceOut) N(n3:SequenceIn)" />
                 <ConfigurableWaitFor Id="n21" Bounds="1729 114 163 91" Target="RotationDegreesChange\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1.B">
@@ -238,6 +238,22 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w27" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableWaitFor>
                 <Wire Id="w27" Joints="N(n21:SequenceOut) N(n22:SequenceIn)" />
+                <ConfigurableMethodCall Id="n23" Bounds="2795 487 75 91" Target="RotationReset\.vix">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.B">
+                        <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
+                    </ConfigurableMethodTerminal>
+                    <Terminal Id="SequenceIn" Direction="Input" Wire="w30" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
+                    <Terminal Id="SequenceOut" Direction="Output" Wire="w29" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="57 33 18 18" />
+                </ConfigurableMethodCall>
+                <Wire Id="w29" Joints="N(n23:SequenceOut) N(n27:SequenceIn)" />
+                <ConfigurableMethodCall Id="n27" Bounds="2870 487 75 91" Target="RotationReset\.vix">
+                    <ConfigurableMethodTerminal ConfiguredValue="1.C">
+                        <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
+                    </ConfigurableMethodTerminal>
+                    <Terminal Id="SequenceIn" Direction="Input" Wire="w29" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
+                    <Terminal Id="SequenceOut" Direction="Output" Wire="w31" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="57 33 18 18" />
+                </ConfigurableMethodCall>
+                <Wire Id="w31" Joints="N(n27:SequenceOut) N(n19:SequenceIn)" />
             </BlockDiagram>
             <Icon>
                 <Model0:IconPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Model0="clr-namespace:NationalInstruments.LabVIEW.VI.Design;assembly=NationalInstruments.LabVIEW.VI.SourceModel" xmlns:fpruntime="clr-namespace:NationalInstruments.LabVIEW.FrontPanelRuntime;assembly=NationalInstruments.LabVIEW.FrontPanelRuntime" xmlns:ation="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Height="98" Width="56">
