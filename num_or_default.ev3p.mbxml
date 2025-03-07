@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_073_BooleanOperations">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description />
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="number" DisplayName="number" Direction="Input" Identification="Identification_020_x.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="default" DisplayName="default" Direction="Input" Identification="Identification_014_Color_Red.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="is_good" DisplayName="is_good" Direction="Output" Identification="Identification_009_OutputBoolean.png" DataType="Boolean" />
+        <ParamInfo Name="out" DisplayName="out" Direction="Output" Identification="Identification_030_ComparisonType_Equal.png" DataType="Single" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
