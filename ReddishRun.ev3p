@@ -49,7 +49,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w13" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w15" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableWaitFor>
-                <Wire Id="w15" Joints="N(n14:SequenceOut) h(5.5) v(114) N(n16:SequenceIn) B(0) N(n11:SequenceIn)" />
+                <Wire Id="w15" Joints="N(n14:SequenceOut) N(n11:SequenceIn) B(0) h(5.5) v(114) N(n16:SequenceIn)" />
                 <ConfigurableMethodCall Id="n16" Bounds="2499 270 163 91" Target="MediumMotorDistance\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1.D">
                         <Terminal Id="MotorPort" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
