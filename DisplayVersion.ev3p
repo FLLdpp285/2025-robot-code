@@ -16,7 +16,7 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w3" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="52 33 18 18" />
                 </StartBlock>
                 <ConfigurableMethodCall Id="n2" Bounds="2799 504 225 91" Target="DisplayStringGrid\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="Mon 17/03/2025 09:09"> <!-- EV3DIFFER track time -->
+                    <ConfigurableMethodTerminal ConfiguredValue="Mon 17/03/2025 09:14"> <!-- EV3DIFFER track time -->
                         <Terminal Id="Text" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="False">
@@ -97,7 +97,7 @@
                 <Wire Id="w10" Joints="N(n6:SequenceOut) N(n9:SequenceIn)" />
                 <Wire Id="w11" Joints="N(n6:Result) v(22) h(101) N(n9:Text)" />
                 <ConfigurableMethodCall Id="n16" Bounds="2349 504 225 91" Target="DisplayStringGrid\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="15e8c48"> <!-- EV3DIFFER track hash -->
+                    <ConfigurableMethodTerminal ConfiguredValue="980b95e"> <!-- EV3DIFFER track hash -->
                         <Terminal Id="Text" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="False">
