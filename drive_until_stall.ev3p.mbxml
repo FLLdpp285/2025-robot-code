@@ -9,6 +9,7 @@
         <PaletteInfo Weight="0.5" />
         <ParamInfo Name="speed" DisplayName="speed" Direction="Input" Identification="Identification_207_Speed_Minus75.png" DataType="Single" DefaultValue="0" Configuration="SliderHorizontal.custom" MinValue="-100" MaxValue="100" />
         <ParamInfo Name="threshold" DisplayName="threshold" Direction="Input" Identification="Identification_031_ComparisonType_GreaterEqual.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="timeout" DisplayName="timeout" Direction="Input" Identification="Identification_240_Time.png" DataType="Single" DefaultValue="0" />
       </Block>
     </PolyGroup>
   </PolyGroups>
