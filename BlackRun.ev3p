@@ -224,7 +224,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Speed\ Right" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="145">
+                    <ConfigurableMethodTerminal ConfiguredValue="149">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -246,7 +246,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="-60">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="195">
+                    <ConfigurableMethodTerminal ConfiguredValue="165">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -1415,7 +1415,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="50">
                         <Terminal Id="Speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="135">
+                    <ConfigurableMethodTerminal ConfiguredValue="68">
                         <Terminal Id="Degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="True">
@@ -1626,7 +1626,7 @@
                     <Content>אוסף את כל חפצי המשחק השונים  בחלק המערבי של המגרש וחוזר לאיזור הבית האדום</Content>
                 </Comment>
                 <Wire Id="w131" Joints="N(n88:SequenceOut) h(28) v(389) h(-2136) v(-96) N(n29:SequenceIn)" />
-                <Wire Id="w140" Joints="N(n128:SequenceOut) h(10) v(305) h(-1995) v(-30) N(n50:SequenceIn)" />
+                <Wire Id="w140" Joints="N(n128:SequenceOut) h(10) v(141) h(-865) v(88) h(-1148) v(46) N(n50:SequenceIn)" />
                 <Wire Id="w132" Joints="N(n101:SequenceOut) N(n110:SequenceIn)" />
                 <Wire Id="w145" Joints="N(n52:SequenceOut) N(n121:SequenceIn)" />
                 <Wire Id="w129" Joints="N(n121:SequenceOut) h(10) v(156) h(-2853) v(-52) h(-3) v(166) N(n108:SequenceIn)" />
